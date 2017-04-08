@@ -1,0 +1,165 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: arial,sans-seriff;
+    line-height: 25px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/*CSS for Header*/
+.header{
+    background-color: darkblue;
+    color: white;
+}
+
+/*CSS for MEnu*/
+.menu ul{
+    list-style-type: none;
+}
+.menu ul a{
+    color: darkblue;
+    text-decoration: none;
+    padding: 1%;
+}
+.menu ul a:hover{
+    background-color: darkblue;
+    color: white;
+}
+.menu ul a li{
+    display: inline;
+}
+
+
+
+/*CSS for Main Body*/
+.main{
+    margin: 1% 0;
+}
+.main h3{
+    color: purple;
+}
+.houses{
+    width: 22.5%;
+    border: 1px solid grey;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+.houses:hover{
+    box-shadow: 0 0 3px 3px silver;
+}
+.houses img{
+    width: 100%;
+}
+.houses .house-title{
+    font-weight: bold;
+    color: darkblue;
+    padding: 1%;
+}
+.house-price{
+    font-size: 120%;
+    color: goldenrod;
+    padding: 1%;
+}
+.house-added,.house-location{
+    font-weight: lighter;
+    font-size: 90%;
+    color: darkblue;
+    padding: 1%;
+}
+.houses .btn-book{
+    padding: 3%;
+    margin: 3%;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.houses .btn-book:hover{
+    background-color: darkblue;
+}
+.book-house img{
+    width: 50%;
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+.book-house h3{
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.book-house p{
+    text-align: justify;
+    padding: 1%;
+    line-height: 30px;
+    color: #394d6d;
+}
+.main .booking-details{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+    padding: 2%;
+    margin: 2% auto;
+}
+.main .booking-details h3{
+    margin-bottom: 2%;
+}
+.main .booking-details .name{
+    width: 20%;
+    float: left;
+}
+.main .booking-details input[type='text'],.main .booking-details input[type='email'],
+.main .booking-details input[type='tel'],.main .booking-details input[type='password'],
+.main .booking-details textarea{
+    padding: 1%;
+    margin: 0.5%;
+    width: 75%;
+}
+.main .booking-details input[type='submit']
+{
+    padding: 2%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    margin-left: 21%;
+}
+.main .booking-details input[type='submit']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.main .booking-details input[type='reset']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.main .booking-details input[type='reset']
+{
+    padding: 2%;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+/*CSS for Footer*/
+.footer{
+    background-color: darkblue;
+    color: white;
+}
+.footer p{
+    text-align: center;
+}
+.footer p a{
+    color: lightblue;
+}
+.footer p a:hover{
+    text-decoration: none;
+}
