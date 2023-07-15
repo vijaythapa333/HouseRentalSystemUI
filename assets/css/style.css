@@ -21,7 +21,7 @@ body{
 }
 /*CSS for Header*/
 .header{
-    background-color: darkblue;
+    background-color: rgb(88, 130, 247);
     color: white;
 }
 
@@ -30,12 +30,12 @@ body{
     list-style-type: none;
 }
 .menu ul a{
-    color: darkblue;
+    color: rgb(66, 66, 233);
     text-decoration: none;
     padding: 1%;
 }
 .menu ul a:hover{
-    background-color: darkblue;
+    background-color: rgb(74, 111, 233);
     color: white;
 }
 .menu ul a li{
@@ -51,22 +51,24 @@ body{
 .main h3{
     color: purple;
 }
-.houses{
+.profiles{
     width: 22.5%;
+    height: 50px;
     border: 1px solid grey;
     margin: 1%;
     float: left;
     text-align: center;
 }
-.houses:hover{
+.profiles:hover{
     box-shadow: 0 0 3px 3px silver;
 }
-.houses img{
+.profiles img{
     width: 100%;
+    height: 370px;
 }
-.houses .house-title{
+.profiles .profile-title{
     font-weight: bold;
-    color: darkblue;
+    color: rgb(14, 14, 71);
     padding: 1%;
 }
 .house-price{
@@ -74,21 +76,21 @@ body{
     color: goldenrod;
     padding: 1%;
 }
-.house-added,.house-location{
+.designation,.current-status{
     font-weight: lighter;
     font-size: 90%;
-    color: darkblue;
+    color: rgb(112, 112, 218);
     padding: 1%;
 }
-.houses .btn-book{
+.profiles .btn-profile{
     padding: 3%;
     margin: 3%;
-    background-color: purple;
+    background-color: rgb(78, 126, 231);
     color: white;
     border: none;
 }
-.houses .btn-book:hover{
-    background-color: darkblue;
+.profiles .btn-profile:hover{
+    background-color: rgb(81, 81, 211);
 }
 .book-house img{
     width: 50%;
@@ -150,16 +152,41 @@ body{
 }
 
 /*CSS for Footer*/
-.footer{
-    background-color: darkblue;
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 153, 211);
     color: white;
-}
-.footer p{
     text-align: center;
-}
-.footer p a{
-    color: lightblue;
-}
-.footer p a:hover{
-    text-decoration: none;
-}
+    margin-top: 40em;
+  }
+
+  .cssmarquee {
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    }
+    .cssmarquee p {
+    font-size: 1em;
+    background-color: bisque;
+    color: rgb(4, 54, 49);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    line-height: 5px;
+    text-align: center;
+    transform:translateX(100%);
+    animation: cssmarquee 10s linear infinite;
+    }
+    @keyframes cssmarquee {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }
